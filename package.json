@@ -1,0 +1,41 @@
+{
+  "name": "@fbraem/rollup-plugin-toml",
+  "version": "0.0.1",
+  "description": "Rollup Plugin for TOML",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fbraem/rollup-plugin-toml.git"
+  },
+  "keywords": [
+    "rollup-plugin",
+    "toml"
+  ],
+  "author": "Franky Braem",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fbraem/rollup-plugin-toml/issues"
+  },
+  "homepage": "https://github.com/fbraem/rollup-plugin-toml#readme",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@iarna/toml": "^3.0.0",
+    "@rollup/pluginutils": "^4.1.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.13.5",
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3",
+    "rollup": "^2.39.1",
+    "tmp": "^0.2.1"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
+  }
+}
