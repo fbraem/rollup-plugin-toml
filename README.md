@@ -34,7 +34,7 @@ This TOML file
 title = 'TOML Example'
 
 [owner]
-name = "Tom Preston-Werner"
+name = "Franky Braem"
 dob = 1969-03-09T10:00:00
 
 [database]
@@ -59,7 +59,7 @@ will result in the following generated code
 ````js
     export const title = "TOML Example";
     export const owner = {
-    	name: "Tom Preston-Werner",
+    	name: "Franky Braem",
     	dob: new Date(-25711200000)
     };
     export const database = {
