@@ -7,7 +7,9 @@ files. @iarna/toml (version 3.0.0) currently supports TOML 1.0.0-rc.1.
 
 ## Installation
 
+````
 npm install @fbraem/rollup-plugin-toml
+````
 
 ## Usage
 
