@@ -1,6 +1,6 @@
 {
   "name": "@fbraem/rollup-plugin-toml",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Rollup Plugin for TOML",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
